@@ -4,11 +4,11 @@ Class = require 'class'
 
 require 'StateMachine'
 
-require 'States/BaseState'
-require 'States/CountdownState'
-require 'States/PlayState'
+require 'states/BaseState'
+require 'states/CountdownState'
+require 'states/PlayState'
 require 'states/ScoreState'
-require 'States/TitleScreenState'
+require 'states/TitleScreenState'
 
 require 'Bird'
 require 'Pipe'
